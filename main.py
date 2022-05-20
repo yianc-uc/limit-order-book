@@ -29,6 +29,3 @@ print(book.best_bid)
 # (2) Test for deleting order
 book.process(order(id=1, time=7, is_sell=False, quantity=0, price=100))
 print(book.best_bid.price)
-    
-
-
